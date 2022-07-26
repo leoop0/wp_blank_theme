@@ -13,7 +13,6 @@ function theme_supports()
 
 function blank_theme_register_assets()
 {
-	wp_enqueue_script('fontAwesome', 'https://kit.fontawesome.com/314c9f462e.js');
 	wp_enqueue_style('style', get_stylesheet_uri());
 	wp_enqueue_script('script', get_template_directory_uri() . '/js/main.js', array(), false, true);
 }
